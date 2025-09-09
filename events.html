@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Global Events Showcase</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Global Events Showcase</h1>
+      <p>Discover what’s happening around the world</p>
+      <button id="darkModeToggle" aria-label="Toggle Dark Mode" title="Toggle Dark Mode"></button>
+    </header>
+    <div class="container">
+      <div class="main">
+        <h2>Featured Event</h2>
+        <div class="image-container">
+          <img id="eventImage" src="images/los-angeles.jpg" alt="Event Image" />
+        </div>
+        <div id="countdown"></div>
+        <div id="eventDescription" class="description">Explore the sights of Los Angeles, from Hollywood to Venice Beach.</div>
+        <div class="tags" id="eventTags"></div>
+      </div>
+      <div class="calendar">
+        <h2>Search Events</h2>
+        <input type="text" id="searchInput" placeholder="Search by city, tag..." aria-label="Search events" />
+        <ul id="eventList" aria-live="polite" aria-relevant="additions"></ul>
+      </div>
+    </div>
+    <!-- Tooltip for hover preview -->
+    <div id="tooltip" role="tooltip" aria-hidden="true"></div>
+    <!-- Modal for event details -->
+    <div id="modalOverlay" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div id="modal">
+        <button class="close-btn" aria-label="Close modal">&times;</button>
+        <img id="modalImage" src="" alt="Event detail image" />
+        <h3 id="modalTitle"></h3>
+        <div class="time"></div>
+        <p id="modalDesc"></p>
+        <div class="tags" id="modalTags"></div>
+        <button id="rsvpBtn">RSVP</button>
+        <button id="addCalendarBtn">Add to Google Calendar</button>
+        <button id="shareFacebook" aria-label="Share on Facebook">Facebook</button>
+        <button id="shareX" aria-label="Share on X">X</button>
+        <span class="like-btn" id="likeBtn" title="Like">&#10084;</span>
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 Global Events. All rights reserved.</p>
+      <form id="emailForm" aria-label="Subscribe for event reminders">
+        <label for="emailInput" style="display: none">Email Address</label>
+        <input type="email" id="emailInput" placeholder="Subscribe for reminders" required />
+        <button type="submit">Subscribe</button>
+      </form>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Los Angeles Exploration",
+    "img": "images/los-angeles.jpg",
+    "description": "Explore the sights of Los Angeles, from Hollywood to Venice Beach.",
+    "tags": ["City", "Sightseeing"],
+    "location": "Los Angeles, CA",
+    "dateTime": "2025-06-01T13:00:00",
+    "url": "https://www.losangeles.com/"
+  },
+  {
+    "title": "Sydney Opera House",
+    "img": "images/sydney-opera-house.jpg",
+    "description": "Visit the iconic Sydney Opera House and enjoy a world-class performance.",
+    "tags": ["Culture", "Performance", "Australia"],
+    "location": "Sydney, Australia",
+    "dateTime": "2025-06-02T20:00:00",
+    "url": "https://www.sydneyoperahouse.com/"
+  },
+  {
+    "title": "New York Energy",
+    "img": "images/nyc.jpg",
+    "description": "Experience the city that never sleeps — New York City’s vibrant energy.",
+    "tags": ["City", "Urban", "Culture"],
+    "location": "New York, NY",
+    "dateTime": "2025-07-05T11:30:00",
+    "url": "https://www.nycgo.com/"
+  },
+  {
+    "title": "Celebration in Tokyo",
+    "img": "images/tokyo-sakura.jpg",
+    "description": "Celebrate cherry blossoms in full bloom at Tokyo’s Sakura Festival.",
+    "tags": ["Festival", "Nature", "Japan"],
+    "location": "Tokyo, Japan",
+    "dateTime": "2025-07-17T08:00:00",
+    "url": "https://japan.travel/en/uk/inspiration/sakura-cherry-blossoms/"
+  },
+  {
+    "title": "Tokyo Sakura Festival",
+    "img": "images/tokyo-sakura.jpg",
+    "description": "Celebrate cherry blossoms in full bloom at Tokyo’s Sakura Festival.",
+    "tags": ["Festival", "Nature", "Japan"],
+    "location": "Tokyo, Japan",
+    "dateTime": "2025-08-01T05:00:00",
+    "url": "https://japan.travel/en/uk/inspiration/sakura-cherry-blossoms/"
+  },
+  {
+    "title": "Celebration in Montreal",
+    "img": "images/beach.jpg",
+    "description": "Come to Montreal and Celebrate!",
+    "tags": ["Festival", "Nature", "UK"],
+    "location": "Montreal, Canada",
+    "dateTime": "2025-06-13T22:00:00",
+    "url": "https://visitcanada.com"
+  }
+]
